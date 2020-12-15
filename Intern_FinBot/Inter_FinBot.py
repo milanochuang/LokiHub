@@ -257,7 +257,6 @@ if __name__ == "__main__":
     inputLIST = ["100台幣換美金"]
     resultDICT = runLoki(inputLIST)
     print("Result => {}".format(resultDICT))
-    print(resultDICT['src'])
     src = moneyName(resultDICT["src"])
     tgt = moneyName(resultDICT["tgt"])
     amt = amountSTRConvert(resultDICT['amt'])[resultDICT['amt']]
